@@ -20,7 +20,7 @@ st.write("Please enter the values and  hit the predict button  for getting a pre
 
 st.divider()
 
-age = st.number_input("Ebter age", min_value=10, max_value=100, value=30)
+age = st.number_input("Enter age", min_value=10, max_value=100, value=30)
 
 tenure = st.number_input("Enter tenure", min_value=0, max_value=130, value=10)
 
@@ -57,4 +57,5 @@ if predict_button:
 else:
     {
         st.write("Please enter the values and  use the predict button")
+
     } 
